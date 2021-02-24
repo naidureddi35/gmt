@@ -33,8 +33,6 @@
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/language_data.js"></script>
-        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
@@ -132,6 +130,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../debug.html">Debugging GMT</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../api.html">GMT C API</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../postscriptlight.html">PostScriptLight C API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../devdocs.html">Developer Documentation</a></li>
 </ul>
 
             
@@ -522,7 +521,7 @@ shaded relief map like this:</p>
 <div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>gmt begin
   gmt grdimage merc_grav_2.nc -Iillum.nc -Cgrav.cpt -Jx0.1i
   gmt basemap -R-40/40/-70.023256525/-29.9368261101 -Jm0.1i -Ba10
-gmtend
+gmt end
 </pre></div>
 </div>
 </div></blockquote>
@@ -558,9 +557,9 @@ eliminate NaNs, and pipe through <a class="reference internal" href="../../mappr
   <div role="contentinfo">
     <p>
         
-        &copy; Copyright 2020, The GMT Team.
+        &copy; Copyright 2021, The GMT Team.
       <span class="lastupdated">
-        Last updated on Dec 02, 2020.
+        Last updated on Feb 24, 2021.
       </span>
 
     </p>
